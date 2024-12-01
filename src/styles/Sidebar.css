@@ -1,0 +1,72 @@
+.sidebar-container {
+    width: 240px;
+    background-color: #2c2f36;
+    height: 100vh;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+}
+
+.logo img {
+    max-width: 100%;
+    height: auto;
+}
+
+.clients-list {
+    flex: 1;
+    margin-top: 20px;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: #888 transparent;
+}
+
+.clients-list::-webkit-scrollbar {
+    width: 6px;
+}
+
+.clients-list::-webkit-scrollbar-thumb {
+    background-color: #555;
+    border-radius: 3px;
+}
+
+.copyBtn,
+.leaveBtn {
+    margin-top: 20px;
+    width: 100%;
+    background-color: #f06565;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.copyBtn:hover,
+.leaveBtn:hover {
+    background-color: #d95353;
+}
+/* Home.css */
+.home-logo img {
+    max-width: 150px; /* Reduce size */
+    height: auto;
+    margin-bottom: 20px;
+}
+
+/* Sidebar.css */
+.logo img {
+    max-width: 120px; /* Adjust size for sidebar */
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 8px; /* Optional styling for rounded corners */
+}
+.logoImage {
+    width: 100px; /* Smaller for sidebar */
+    height: auto; /* Maintain aspect ratio */
+    display: block;
+    margin: 0 auto; /* Center the logo in the sidebar */
+    margin-bottom: 10px; /* Space below */
+}

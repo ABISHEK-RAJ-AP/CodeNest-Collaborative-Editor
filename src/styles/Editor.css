@@ -1,0 +1,35 @@
+.editor-container {
+    flex: 1;
+    padding: 20px;
+    background-color: #1c1e29;
+}
+
+textarea#realtimeEditor {
+    width: 100%;
+    height: 100vh;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: 'Cascadia Code', monospace;
+    background-color: #1e1e1e;
+    color: #ffffff;
+    border-radius: 8px;
+}
+.editorContainer {
+    flex-grow: 1; /* Ensures it takes up available space */
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    height: 100%; /* Adjust to fill the parent container */
+    overflow: hidden; /* Prevents extra spacing */
+  }
+  
+  .CodeMirror {
+    height: 100%; /* Ensures the CodeMirror editor fills the container */
+    width: 100%; /* Ensures the editor spans the full width */
+    margin: 0;
+    padding: 0;
+  }
+  

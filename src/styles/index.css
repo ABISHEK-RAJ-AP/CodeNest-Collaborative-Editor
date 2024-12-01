@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  .homePageWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+  }
+  
+  .logoImage {
+    width: 150px;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .inputGroup {
+    margin-top: 15px;
+  }
+  
+  .inputBox {
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .copyBtn {
+    margin-right: 10px;
+  }
+  
+  .leaveBtn {
+    background-color: #dc3545;
+  }
+  
+  .leaveBtn:hover {
+    background-color: #b21f2d;
+  }
+  
+  footer {
+    margin-top: 20px;
+    font-size: 12px;
+  }
+  
+  footer a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
