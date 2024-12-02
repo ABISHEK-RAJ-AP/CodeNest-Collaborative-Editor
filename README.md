@@ -7,7 +7,7 @@
 
 
 Codenest is a realtime collaborative code editor designed to enhance team productivity. It allows multiple developers to write, edit, and discuss code together in real-time with seamless synchronization. Built with WebSockets for real-time communication, Codenest aims to bridge the gap in team collaboration.
-
+ ![editor](preview1.jpg)
 ## 🚀 **Features**
 
 - **Real-time collaboration:** Edit and view changes instantly across users.
