@@ -93,7 +93,7 @@ If you find this project helpful, please ⭐ the repository and share it with yo
 For any questions or suggestions, feel free to contact me:
 
 - **Email:** [apabishekraj@gmail.com](mailto:apabishekraj@gmail.com)
-- **Linkedin:** [ABISHEK-RAJ-AP][(https://github.com/ABISHEK-RAJ-AP](https://www.linkedin.com/in/apabishekraj/))
+- **Linkedin:** [ABISHEK-RAJ-AP](https://www.linkedin.com/in/apabishekraj/))
 
 ---
 
